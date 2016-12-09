@@ -17,6 +17,11 @@ class Result
         this.write('listing', listing);
     }
 
+    contact(contact)
+    {
+        this.write('contact', contact);
+    }
+
     write(type, object)
     {
         const json = JSON.stringify({'type': type, 'data': object});

@@ -1,6 +1,6 @@
 {
   "name": "listing-crawler-model",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Listing crawler model for crawlers and tools",
   "main": "model.js",
   "dependencies": {},

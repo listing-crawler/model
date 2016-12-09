@@ -6,8 +6,5 @@ all: init
 init:
 	$(RUN) npm install
 
-test:
-	echo "to be done"
-
 publish:
 	$(RUN) /bin/bash -cx "npm adduser && npm publish"

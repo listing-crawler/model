@@ -12,13 +12,19 @@ class Listing {
         this.country = null;
         this.name = null;
         this.price = null;
-        this.agent = null;
+        this.contacts = [];
         this.urlDetail = null;
         this.images = [];
         this.description = null;
         this.level = null;
         this.area = null;
         this.ownership = null;
+        this.rooms = null;
+    }
+
+    addContact(contact)
+    {
+        this.contacts.push(contact);
     }
 
     addImage(image)
